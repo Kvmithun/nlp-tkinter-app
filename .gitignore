@@ -1,43 +1,140 @@
-# 1. Python cache and compiled files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 
-# 2. Virtual environments (don't upload venv)
-venv/
-.venv/
+# Virtual environments
 env/
 ENV/
+.venv/
+venv/
+env.bak/
+venv.bak/
 
-# 3. API keys or sensitive files (if used)
+# API keys or sensitive files
 .env
 config.json
 secrets.json
 
-# 4. Database or local data files
+# Database or local data files
 *.db
 *.sqlite3
 db.json
 
-# 5. IDE/editor settings
+# IDE/editor settings
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
+.spyderproject
+.spyproject
+.ropeproject
 
-# 6. Log files and debug output
+# Log files and debug output
 *.log
 
-# 7. OS-generated files
+# OS-generated files
 .DS_Store
 Thumbs.db
 
-# 8. Packaging/build
+# Build / packaging
 *.egg-info/
 build/
 dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
 
-# 9. Backup/swap files
-*.bak
-*.swp
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Pipenv / Poetry / PDM
+Pipfile.lock
+poetry.lock
+pdm.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# MkDocs
+/site
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# Ruff
+.ruff_cache/
+
+# PyPI
+.pypirc
+
+# Cursor AI
+.cursorignore
+.cursorindexingignore
+
+# Abstra
+.abstra/
+
+
