@@ -1,0 +1,43 @@
+# 1. Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 2. Virtual environments (don't upload venv)
+venv/
+.venv/
+env/
+ENV/
+
+# 3. API keys or sensitive files (if used)
+.env
+config.json
+secrets.json
+
+# 4. Database or local data files
+*.db
+*.sqlite3
+db.json
+
+# 5. IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 6. Log files and debug output
+*.log
+
+# 7. OS-generated files
+.DS_Store
+Thumbs.db
+
+# 8. Packaging/build
+*.egg-info/
+build/
+dist/
+
+# 9. Backup/swap files
+*.bak
+*.swp
